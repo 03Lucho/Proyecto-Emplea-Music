@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.continer{
+    display: grid;
+    grid-template-columns: 103px 123px 123px 123px 139px;
+    background-color: #F96666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.container {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.buscar {
+    margin: 5px;
+}
+
+.usuario {
+    background-color: burlywood;
+    display: block;
+    text-align: center;
+    width: 200px;
+    padding: 2px;
+}
+
+#boton {
+    background-color: rgb(188, 181, 181);
+    width: 190px;
+    padding: 2px;
+}
+
+.docentes {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+
+/* Una columna */
+@media(max-width:414px) {
+    .container {
+        text-align: left;
+    }
+
+    .docentes {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .usuario {
+        background-color: burlywood;
+        display: block;
+        text-align: center;
+        width: 200px;
+        padding: 2px;
+        margin: 10px;
+    }
+}
+
+/* dos columnas */
+@media (min-width:415px) {
+    .container {
+        text-align: center;
+    }
+
+    .docentes {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .usuario {
+        background-color: burlywood;
+        display: block;
+        text-align: center;
+        width: 200px;
+        padding: 2px;
+        margin: 10px;
+    }
+}
+/* tres columnas */
+@media (min-width:626px) {
+    .container {
+        text-align: center;
+    }
+
+    .docentes {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .usuario {
+        background-color: burlywood;
+        display: block;
+        text-align: center;
+        width: 200px;
+        padding: 2px;
+        margin: 10px;
+    }
+}
+/* 4 columnas */
+@media (min-width:826px) {
+    .container {
+        text-align: center;
+    }
+
+    .docentes {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .usuario {
+        background-color: burlywood;
+        display: block;
+        text-align: center;
+        width: 200px;
+        padding: 2px;
+        margin: 10px;
+    }
+}

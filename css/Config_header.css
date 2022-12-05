@@ -1,0 +1,54 @@
+header{
+    background-color: lightcoral;
+}
+/* header */
+h1 {
+    text-align: center;
+}
+
+.header {
+    text-align: right;
+    height: 150px;
+    width: 100%;
+}
+#listaperfil {
+    position: relative;
+    bottom: 30px;
+}
+.img {
+    position: relative;
+    left: 34%;
+    border: 2px solid black;
+    height: 60px;
+    width: 60px;
+}
+.iconoempleamusic {
+    text-align: center;
+}
+.iconos {
+    position: relative;
+    bottom: 80px;
+}
+@media (max-width: 420px){
+    header{
+        height: 160px;
+        width: 500px;
+    }
+    h1{
+        text-align: left;
+    }
+    .iconoempleamusic{
+        text-align: left;
+    }
+    .iconos{
+        position: relative;
+        bottom: 60%;
+        right: 30%;
+    }
+    .continer {
+        grid-template-columns: 53px 53px 63px 63px 63px;
+        font-size: 7px;
+        text-align: left;
+        bottom: 20px;
+    }
+}

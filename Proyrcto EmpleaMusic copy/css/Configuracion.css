@@ -1,0 +1,450 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico);
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+}
+
+#latin{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    position: relative;
+}
+#a{
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    left: 23px;
+}
+#b{
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    top: 60px;
+    left: 93px;
+}
+#c{
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    top: 90px;
+    left: 127px;
+}
+h3{
+    font-size: 12px;
+    text-align: end;
+    
+}
+.ajustes{
+    position: relative;
+    left: 1px;
+    bottom: 625px;
+    justify-content: center;
+    text-align: center;
+}
+.titulo_ajustes{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+position: relative;
+justify-content: center;
+bottom: 625px;
+}
+#opciones{
+position: relative;
+top: 290px;
+left: 115px;
+padding-bottom: 59px;
+}
+h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+#nombre{
+    position: absolute;
+    top: 343px;
+    left: 320px;
+    width: 224px;
+    right: 0px;
+    border: 2px solid red;
+    border-radius: 25px;
+    text-align: center;
+}
+#number{
+    position: relative;
+    top: 263px;
+    left: 125px;
+    width: 224px;
+    border: 2px solid red;
+    border-radius: 25px;
+    text-align: center;
+}
+#select{
+    position: relative;
+    top: 285px;
+    left: 59px;
+    width: 224px;
+    border: 2px solid red;
+    border-radius: 25px;
+    text-align: center;
+}
+#biografia{
+    border-radius: 5px;
+    position: relative;
+    left: 34px;
+    top: 285px;
+}
+#imagenperfil{
+    border: 3px black solid;
+    width: 384px;
+    height: 404px;
+    position: relative;
+    left: 784px;
+    bottom: 450px;
+}
+#foto{
+    position: relative;
+    top: 180px;
+    left: 106px;
+    text-align: right;
+    border: none;
+}
+#cargararchivo{
+    position: relative;
+    top: 420px;
+    left: 15px;
+    text-align: right;
+    border: none; 
+}
+#escucha{
+    width: 395px;
+    height: 395px;
+    position: relative;
+    bottom: 850px;
+    left: 781px;
+    opacity: 23%;
+    text-align: right;
+}
+.goku{
+    height: 123px;
+}
+.krilin{
+    position: relative;
+    top: 330px;
+    left: 99px;
+}
+.ciudad{
+    position: relative;
+    top: 23px;
+}
+#parrafo{
+    resize: none;
+}
+#bio{
+    position: relative;
+    top: 210px;
+    left: 120px;
+}
+#enlace{
+    position: relative;
+}
+
+/* Movil */
+@media(max-width:414px) {
+   footer{
+    position: relative;
+    top: 0px;
+   }
+    #nombre{
+        position: relative;
+        top: 313px;
+        left: 20px;
+        width: 224px;
+        border: 2px solid red;
+        border-radius: 25px;
+        text-align: center;
+    }
+    #number{
+        position: relative;
+        top: 303px;
+        left: 21px;
+        width: 224px;
+        border: 2px solid red;
+        border-radius: 25px;
+        text-align: center;
+    }
+    #select{
+        position: relative;
+        top: 315px;
+        left: 19px;
+        width: 224px;
+        border: 2px solid red;
+        border-radius: 25px;
+        text-align: center;
+    }
+    #biografia{
+        border-radius: 5px;
+        position: relative;
+        left: 7px;
+        top: 315px;
+    }
+    #enlace{
+        position: relative;
+        top: 500px;
+    }
+    #imagenperfil{
+        border: 3px black solid;
+        width: 384px;
+        height: 404px;
+        position: relative;
+        left: 24px;
+        bottom: 50px;
+    }
+    #foto{
+        position: relative;
+        top: 180px;
+        right: 1416px;
+        text-align: right;
+        border: none;
+    }
+    #escucha{
+        width: 395px;
+        height: 395px;
+        position: relative;
+        bottom:480px;
+        left: 21px;
+        opacity: 23%;
+        text-align: right;
+    }
+
+}
+
+/* Tablet */
+@media(max-width:540px){
+    footer{
+        position: relative;
+        top: 0px;
+       }
+        #nombre{
+            position: relative;
+            top: 313px;
+            left: 20px;
+            width: 224px;
+            border: 2px solid red;
+            border-radius: 25px;
+            text-align: center;
+        }
+        #number{
+            position: relative;
+            top: 303px;
+            left: 21px;
+            width: 224px;
+            border: 2px solid red;
+            border-radius: 25px;
+            text-align: center;
+        }
+        #select{
+            position: relative;
+            top: 315px;
+            left: 19px;
+            width: 224px;
+            border: 2px solid red;
+            border-radius: 25px;
+            text-align: center;
+        }
+        #biografia{
+            border-radius: 5px;
+            position: relative;
+            left: 7px;
+            top: 315px;
+        }
+        #enlace{
+            position: relative;
+            top: 500px;
+        }
+        #imagenperfil{
+            border: 3px black solid;
+            width: 384px;
+            height: 404px;
+            position: relative;
+            left: 112px;
+            bottom: 50px;
+        }
+        #foto{
+            position: relative;
+            top: 180px;
+            right: 1416px;
+            text-align: right;
+            border: none;
+        }
+        #escucha{
+            width: 395px;
+            height: 395px;
+            position: relative;
+            bottom:480px;
+            left: 112px;
+            opacity: 23%;
+            text-align: right;
+        }
+}
+
+@media(max-width:912px){
+    footer{
+        position: relative;
+        top: 0px;
+       }
+        #nombre{
+            position: relative;
+            top: 313px;
+            left: 20px;
+            width: 224px;
+            border: 2px solid red;
+            border-radius: 25px;
+            text-align: center;
+        }
+        #number{
+            position: relative;
+            top: 303px;
+            left: 21px;
+            width: 224px;
+            border: 2px solid red;
+            border-radius: 25px;
+            text-align: center;
+        }
+        #select{
+            position: relative;
+            top: 315px;
+            left: 19px;
+            width: 224px;
+            border: 2px solid red;
+            border-radius: 25px;
+            text-align: center;
+        }
+        #biografia{
+            border-radius: 5px;
+            position: relative;
+            left: 7px;
+            top: 315px;
+        }
+        #enlace{
+            position: relative;
+            top: 500px;
+        }
+        #imagenperfil{
+            border: 3px black solid;
+            width: 384px;
+            height: 404px;
+            position: relative;
+            left: 112px;
+            bottom: 50px;
+        }
+        #foto{
+            position: relative;
+            top: 180px;
+            right: 1416px;
+            text-align: right;
+            border: none;
+        }
+        #escucha{
+            width: 395px;
+            height: 395px;
+            position: relative;
+            bottom:480px;
+            left: 112px;
+            opacity: 23%;
+            text-align: right;
+        }
+}
+
+@media(max-width:281px){
+        .ajustes{
+            position: relative;
+            left: 1px;
+            bottom: 725px;
+            justify-content: center;
+            text-align: center; 
+        }
+        .titulo_ajustes{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            position: relative;
+            justify-content: center;
+            bottom: 725px;
+            }
+
+
+        #nombre{
+            position: relative;
+            top: 313px;
+            left: 20px;
+            width: 224px;
+            border: 2px solid red;
+            border-radius: 25px;
+            text-align: center;
+        }
+        #number{
+            position: relative;
+            top: 323px;
+            left: 21px;
+            width: 224px;
+            border: 2px solid red;
+            border-radius: 25px;
+            text-align: center;
+        }
+        #select{
+            position: relative;
+            top: 315px;
+            left: 19px;
+            width: 224px;
+            border: 2px solid red;
+            border-radius: 25px;
+            text-align: center;
+        }
+        #biografia{
+            border-radius: 5px;
+            position: relative;
+            left: 7px;
+            top: 315px;
+        }
+        #enlace{
+            position: relative;
+            top: 500px;
+        }
+        #imagenperfil{
+            border: 3px black solid;
+            width: 384px;
+            height: 404px;
+            position: relative;
+            left: 112px;
+            bottom: 50px;
+        }
+        #foto{
+            position: relative;
+            top: 180px;
+            right: 1416px;
+            text-align: right;
+            border: none;
+        }
+        #escucha{
+            width: 395px;
+            height: 395px;
+            position: relative;
+            bottom:480px;
+            left: 112px;
+            opacity: 23%;
+            text-align: right;
+        }
+}
+

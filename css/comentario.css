@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 10px;
+}
+.videoclip{
+    margin: 5px;
+    height: 232px;
+    width: 249px;
+    position: absolute;
+    left: 70%;
+    right: 0%;
+    bottom: 20%;
+}
+textarea{
+    resize: none;
+}
+.continer{
+    display: grid;
+    grid-template-columns: 103px 123px 123px 123px 123px;
+    background-color: #F96666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+@media (max-width: 900px){
+    .videoclip{
+        height: 232px;
+        width: 249px;
+        position: relative;
+        left: 0%;
+        right: 0%;
+    }
+}
+

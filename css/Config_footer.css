@@ -1,0 +1,82 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico);
+
+[class*="brandico-"]:before {
+    font-family: 'brandico', sans-serif;
+}
+
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 50% 0%;
+    background-color: lightcoral;
+    position: relative;
+    top: 90px;
+    height: 160px;
+    width: 100%;
+}
+
+#texto {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    position: relative;
+    left: 50%;
+    width: 450px;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+#a {
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+}
+
+#b {
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    left: 345;
+}
+
+#c {
+    color: aliceblue;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+}
+
+.nav {
+    height: 150px;
+    width: 305px;
+    text-align: center;
+}
+
+@media(max-width: 910px) {
+    footer {
+        display: grid;
+        grid-template-columns: 25%;
+        background-color: lightcoral;
+        position: relative;
+        top: 90px;
+        height: 610px;
+        width: 100%;
+    }
+
+    #texto {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+        position: relative;
+        left: 50%;
+        width: 150px;
+    }
+}
